@@ -1,0 +1,169 @@
+/* Apply styles to the header element */
+header {
+    background-color: #333; /* Change to your preferred background color */
+    color: #fff; /* Text color */
+    padding: 10px; /* Adjust the padding as needed */
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none; /* Remove the default list bullet points */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add space between menu items */
+}
+
+/* Style the links */
+nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Link text color */
+}
+
+/* Style the social media links */
+.social-media-links {
+    display: none; /* Hide the social media links by default */
+    background-color: #333; /* Background color for the social media sub-menu */
+    position: absolute;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.social-media-links li {
+    margin: 5px 0; /* Add space between social media links */
+}
+
+/* When hovering over "Social Media," display the sub-menu */
+nav li:hover .social-media-links {
+    display: block;
+}
+
+/* Apply styles to social media links */
+.social-media-links a {
+    text-decoration: none;
+    color: #fff; /* Social media link text color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #3494E6, #EC6EAD);
+    color: #fff;
+}
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+#Name{
+    /* display: flex; */
+    width: 100%;
+    margin: 20px;
+    padding:0px;
+    align-items: start;
+   /* display: inline-block; */
+}
+.container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+
+    text-align: start;
+    margin-left: 30px;
+    padding: 20px; 
+    align-items: end;
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+#about h1 {
+    font-size: 2rem;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+#projects h2 {
+    font-size: 2rem;
+}
+
+.project {
+    margin: 2rem 0;
+}
+
+.project img {
+    max-width: 100%;
+    height: auto;
+}
+
+#contact h2 {
+    font-size: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0.5rem;
+}
+#image{
+    transform: translate(400px);
+    position: relative;
+    padding: 200px;
+    padding: 20px;
+    padding-left: 250px;
+
+    
+}
+
+#div{
+    margin-top: 10px;
+    margin: 50px;
+    margin-block: 10px;
+    line-height: 30px;
+    
+    max-width: 800px;
+    font-family: 'Caveat', cursive;
+    font:bold;
+    font-size: x-large;
+}
+#contact{
+    text-align: top;
+margin: 40px;
+padding: 15px;
+}
+#cont{
+    text-align: top;
+    margin: 40px;
+padding: 15px;
+}
